@@ -31,14 +31,12 @@ cd ./JUnit_Java
 ```
 
 ## Ejecución
-Para correr, ya en la carpeta desde la consola ejecutar:
+Para ejecutar el proyecto, se debe ejecutar este comando en la carpeta raíz:
 ```
 gradle run
 ``` 
-Para así iniciar la ejecución del programa por consola.
-
 ## Pruebas
-Para ejecutar las pruebas se debe utilizar el comando:
+Para ejecutar las pruebas unitarias se debe utilizar el comando:
 ```
 gradle clean test
 ```
@@ -46,12 +44,12 @@ Al ejecutar las pruebas se genera el archivo:
 ```
 ./build/reports/tests/test/index.html
 ```
-Este archivo contiene un reporte con los resultados de todas las pruebas ejecutadas, simplemente abrirlo con cualquier navegador web.
+Este archivo contiene un reporte con los resultados de todas las pruebas ejecutadas, se puede abrir en cualquier navegador.
 
 ## Archivos proyecto
-Se trabajó principalmente en tres archivos,  en ``./src/main/java/test/cuenta/bancaria/`` se encuentra:
+Se tienen los siguientes archivos,  en ``./src/main/java/test/`` se encuentra:
 - `Libro.java`, el cual contiene la estructura del objeto Libro.
 - `Main.java`, el cual utiliza la lógica de las entradas por consola y el manejo de las opciones.
 
-Por otro lado, en `./src/test/java/test/cuenta/bancaria/`:
+Por otro lado, en `./src/test/java/test/`:
 - `LibroTest.java`, que contiene todas las pruebas unitarias.
